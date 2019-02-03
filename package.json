@@ -1,0 +1,22 @@
+{
+  "name": "meanstackproject",
+  "version": "1.0.0",
+  "description": "meanstack project and use nodejs express and mongodb to create rest api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjayrajput54/meanstackproject.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "sanjay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanjayrajput54/meanstackproject/issues"
+  },
+  "homepage": "https://github.com/sanjayrajput54/meanstackproject#readme"
+}
