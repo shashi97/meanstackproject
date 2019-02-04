@@ -4,7 +4,8 @@
   "description": "meanstack project and use nodejs express and mongodb to create rest api",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/server.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/sanjayrajput54/meanstackproject/issues"
   },
-  "homepage": "https://github.com/sanjayrajput54/meanstackproject#readme"
+  "homepage": "https://github.com/sanjayrajput54/meanstackproject#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.9",
+    "nodemon": "^1.18.9"
+  }
 }

@@ -1,0 +1,55 @@
+
+    <div class="container">
+        <div class="card card-signin my-5">
+            <div class="card card-signin">
+                <div class="card-header">
+                <h5 class="card-title">Register</h5>
+                </div>
+        <div class="card-body">
+        <div class="form-signin my-5">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-5 mx-auto">
+                        <div class="form-label-group">
+                          <input type="text" class="form-control"  [(ngModel)]="user.firstname"  placeholder="First Name" required autofocus>
+                        </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-5 mx-auto">
+                    <div class="form-label-group">
+                      <input type="text"  class="form-control"  [(ngModel)]="user.lastname"  placeholder="Last Name" required autofocus>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-5 mx-auto">
+                        <div class="form-label-group">
+                          <input type="email"  class="form-control"  [(ngModel)]="user.email"  placeholder="Email ID" required autofocus>
+                        </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-5 mx-auto">
+                    <div class="form-label-group">
+                      <input type="password"  class="form-control"  [(ngModel)]="user.password"  placeholder="Password" required autofocus>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-5 mx-auto">
+                        <div class="form-label-group">
+                          <input type="password"  class="form-control"  [(ngModel)]="user.confirmpassword"  placeholder="Confirm Password" required autofocus>
+                        </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-5 mx-auto">
+                    <div class="form-label-group">
+                      <input type="number"  class="form-control"  [(ngModel)]="user.mobile"  placeholder="Mobile" required autofocus>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-10 mx-auto">
+                    <button class="btn btn-warning text-uppercase" (click)="register(user)"  type="submit">SUBMIT</button>
+                    <button class="btn  btn-warning  text-uppercase" [routerLink]="['/']" type="button">CENCEL</button>
+                  </div>
+            </div>
+    </div>
+    </div>
+    </div>
+    </div>  

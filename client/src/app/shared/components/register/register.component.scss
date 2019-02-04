@@ -1,0 +1,28 @@
+
+  .form-signin .btn {
+    font-size: 60%;
+    padding: 1em 2em 1em 2em;
+    transition: all 0.2s;
+    float: right;
+    margin-left: 45px;
+  }
+  
+  .form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  
+  .form-label-group input {
+    height: auto;
+  }
+  button:last-child{
+      background-color: #ddd;
+      border-color: #ccc;
+  }
+  .card-header{
+    background: #467cb5;
+    color: #fff;
+  }
+  .card{
+      border: none;
+  }

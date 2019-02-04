@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+
+body {
+    background: #007bff;
+    // background: linear-gradient(to right, #0062E6, #33AEFF);
+       background: linear-gradient(to right, #6693d0, #9fcfef);
+  }
