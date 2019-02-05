@@ -21,12 +21,15 @@ const register=(req,res)=>{
                 } else {
                   const user=new userModel({
                     _id:mongoose.Types.ObjectId(),
+                    firstName:userReq.firstname,
+                    lastName:userReq.firstname,
                     email : userReq.email,
-                    password:hash
+                    password:hash,
+                    mobile:userReq.mobile,
+                    status:true
                   });
             
                   user.save().then((result)=>{
-                    console.log(result);
                     res.status(201).json({
                       message:"User registered successfully.",
                       user:result

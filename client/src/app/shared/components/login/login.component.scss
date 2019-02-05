@@ -19,12 +19,14 @@
     width: 100%;
   }
   
-  .form-signin .btn {
+  .login {
     font-size: 80%;
-    border-radius: 5rem;
+    // border-radius: 5rem;
     letter-spacing: .1rem;
-    padding: .7rem;
+    // padding: .7rem;
     transition: all 0.2s;
+    background: #6c6c98;
+    color: #fff;
   }
   
   .form-label-group {
@@ -40,3 +42,23 @@
     cursor: pointer;
     box-shadow: none;
   }
+  .input-group{
+    border-bottom: 1px solid #ddd;
+  }
+  .email-span{
+    font-size: 1.2em!important;
+  }
+  .border-none-span{
+    border: none;
+    background: #fff;
+    font-size: 1.4em;
+  }
+  .margin-5{
+    margin-top: -14px!important;
+  }
+  input{
+    background: #fff;
+    border: none;
+    box-shadow: none!important;
+    height: 29px;
+    }

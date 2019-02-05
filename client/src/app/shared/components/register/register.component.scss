@@ -1,10 +1,9 @@
 
   .form-signin .btn {
-    font-size: 60%;
-    padding: 1em 2em 1em 2em;
+    font-size: 13px;
     transition: all 0.2s;
     float: right;
-    margin-left: 45px;
+    margin-left: 16px;
   }
   
   .form-label-group {
@@ -15,14 +14,28 @@
   .form-label-group input {
     height: auto;
   }
-  button:last-child{
-      background-color: #ddd;
-      border-color: #ccc;
-  }
+ 
   .card-header{
     background: #467cb5;
     color: #fff;
   }
   .card{
       border: none;
+  }
+  input{
+    height: 30px;
+    background-color: #efefef;
+  }
+  .redstar{
+    color:red;
+  }
+  .submit-btn{
+    background: orange;
+    color: #fff;
+  }
+  .cancel-btn{
+    color: #fff;
+    background: #aaa;
+    border-color: #fff;
+
   }

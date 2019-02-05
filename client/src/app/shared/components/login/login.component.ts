@@ -13,6 +13,13 @@ export class LoginComponent implements OnInit {
   ngOnInit() {
   }
 login(userParam:any){
+  if(userParam.email==undefined || userParam.password===undefined || userParam.email==='' || userParam.password===''){
+    alert("Enter email or password");
+    return false;
+  }else if(!userParam.email.match(/[a-zA-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-zA-z0-9!#$%&'*+/=?^_`{|}~-]+)*@gmail\.com?/)){
+      alert('Please enter valid email');
+      return false;
+  }
   let user={
     email:userParam.email,
     password:userParam.password
